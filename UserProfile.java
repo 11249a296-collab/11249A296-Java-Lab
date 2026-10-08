@@ -7,7 +7,7 @@ public class UserProfile {
         String fileName = "userprofile.txt";
 
         try {
-            // Writing data to file
+            
             FileOutputStream fos = new FileOutputStream(fileName);
 
             String profile = "Name: Ramesh\n"
@@ -21,7 +21,7 @@ public class UserProfile {
 
             System.out.println("Profile data written successfully.");
 
-            // Reading data from file
+         
             FileInputStream fis = new FileInputStream(fileName);
 
             int data;
