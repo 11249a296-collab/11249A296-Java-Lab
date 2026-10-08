@@ -7,7 +7,6 @@ public class TextEditor {
         String fileName = "document.txt";
 
         try {
-            // Writing content to file
             FileWriter writer = new FileWriter(fileName);
 
             writer.write("Welcome to Java File Handling.\n");
@@ -18,7 +17,7 @@ public class TextEditor {
 
             System.out.println("Content written successfully.");
 
-            // Reading content from file
+          
             FileReader reader = new FileReader(fileName);
 
             int character;
